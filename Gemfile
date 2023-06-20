@@ -76,5 +76,18 @@ gem "devise"
 gem "omniauth"
 gem "omniauth-google-oauth2"
 gem "omniauth-rails_csrf_protection"
+gem 'rswag'
+# Gemfile
+gem 'rswag-api'
+gem 'rswag-ui'
+gem 'faker'
+
+
+group :development, :test do
+  gem 'rspec-rails'
+  gem 'rswag-specs'
+  gem 'factory_bot_rails'
+end
+
 
 
